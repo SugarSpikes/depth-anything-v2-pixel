@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+
+    <!-- Dark purple/blue gradient background -->
+    <path
+        android:pathData="M0,0 L108,0 L108,108 L0,108 Z"
+        android:fillColor="#1A1A2E"/>
+
+    <!-- Subtle gradient effect with circles -->
+    <path
+        android:pathData="M0,0 L108,0 L108,54 Q54,70 0,54 Z"
+        android:fillColor="#16213E"
+        android:fillAlpha="0.8"/>
+
+    <path
+        android:pathData="M0,108 L108,108 L108,70 Q54,54 0,70 Z"
+        android:fillColor="#0F3460"
+        android:fillAlpha="0.6"/>
+
+</vector>

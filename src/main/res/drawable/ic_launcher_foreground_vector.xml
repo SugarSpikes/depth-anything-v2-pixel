@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+
+    <!-- Depth layers representing depth estimation -->
+    <!-- Outer layer (far/red) -->
+    <path
+        android:pathData="M54,54m-32,0a32,32 0,1 1,64 0a32,32 0,1 1,-64 0"
+        android:fillColor="#FF5722"
+        android:fillAlpha="0.9"/>
+
+    <!-- Middle-outer layer (orange) -->
+    <path
+        android:pathData="M54,54m-26,0a26,26 0,1 1,52 0a26,26 0,1 1,-52 0"
+        android:fillColor="#FF9800"
+        android:fillAlpha="0.9"/>
+
+    <!-- Middle layer (yellow) -->
+    <path
+        android:pathData="M54,54m-20,0a20,20 0,1 1,40 0a20,40 0,1 1,-40 0"
+        android:fillColor="#FFEB3B"
+        android:fillAlpha="0.9"/>
+
+    <!-- Inner-middle layer (green) -->
+    <path
+        android:pathData="M54,54m-14,0a14,14 0,1 1,28 0a14,14 0,1 1,-28 0"
+        android:fillColor="#4CAF50"
+        android:fillAlpha="0.9"/>
+
+    <!-- Inner layer (cyan) -->
+    <path
+        android:pathData="M54,54m-8,0a8,8 0,1 1,16 0a8,8 0,1 1,-16 0"
+        android:fillColor="#00BCD4"
+        android:fillAlpha="0.95"/>
+
+    <!-- Center point (blue/purple - closest) -->
+    <path
+        android:pathData="M54,54m-3,0a3,3 0,1 1,6 0a3,3 0,1 1,-6 0"
+        android:fillColor="#6200EE"/>
+
+    <!-- "D" letter overlay for Depth -->
+    <path
+        android:pathData="M44,38 L44,70 L54,70 C66,70 72,62 72,54 C72,46 66,38 54,38 L44,38 Z M50,44 L54,44 C62,44 66,48 66,54 C66,60 62,64 54,64 L50,64 L50,44 Z"
+        android:fillColor="#FFFFFF"
+        android:fillAlpha="0.95"/>
+
+</vector>

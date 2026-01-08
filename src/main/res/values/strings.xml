@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">Depth Anything V2</string>
+    <string name="request_permission">This app needs camera permission to estimate depth</string>
+    <string name="camera_error">This device doesn\'t support Camera2 API.</string>
+    <string name="gallery_permission">Storage permission needed to load images</string>
+
+    <!-- Depth Map Color Schemes -->
+    <string name="colormap_turbo">Turbo</string>
+    <string name="colormap_magma">Magma</string>
+    <string name="colormap_viridis">Viridis</string>
+    <string name="colormap_plasma">Plasma</string>
+    <string name="colormap_inferno">Inferno</string>
+    <string name="colormap_grayscale">Grayscale</string>
+
+    <!-- UI Labels -->
+    <string name="btn_gallery">Gallery</string>
+    <string name="btn_camera">Camera</string>
+    <string name="btn_profile">Profile</string>
+    <string name="btn_settings">Settings</string>
+
+    <!-- Profiling -->
+    <string name="profile_title">Performance Profile</string>
+    <string name="profile_running">Running benchmark...</string>
+</resources>
